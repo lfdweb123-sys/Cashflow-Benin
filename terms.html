@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conditions d'Utilisation — CashFlow Bénin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --gold: #D4AF37; --gold-dark: #B8962E; --orange: #E8720C;
+      --black: #0D0D0D; --dark: #1A1A2E; --grey: #4A4A6A;
+      --light-grey: #E8E8F0; --pale: #F5F5FA; --white: #FFFFFF;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--white); color: var(--black); line-height: 1.7; }
+    a { color: var(--orange); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    nav {
+      position: sticky; top: 0;
+      background: rgba(255,255,255,0.95); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--light-grey);
+      padding: 0 5vw; height: 64px;
+      display: flex; align-items: center; justify-content: space-between; z-index: 100;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo-icon { width: 34px; height: 34px; background: linear-gradient(135deg, var(--gold-dark), var(--gold)); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+    .nav-logo-text { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; color: var(--black); }
+    .nav-back { font-size: 14px; color: var(--grey); }
+    .nav-back:hover { color: var(--orange); text-decoration: none; }
+    .page-hero { background: linear-gradient(135deg, var(--pale), rgba(232,114,12,0.04)); padding: 60px 5vw 50px; border-bottom: 1px solid var(--light-grey); }
+    .page-hero-inner { max-width: 760px; margin: 0 auto; }
+    .page-tag { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--orange); margin-bottom: 12px; }
+    .page-tag::before { content: ''; display: block; width: 16px; height: 2px; background: var(--orange); border-radius: 2px; }
+    .page-title { font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 42px); font-weight: 800; line-height: 1.15; letter-spacing: -0.5px; margin-bottom: 12px; }
+    .page-meta { font-size: 14px; color: var(--grey); }
+    .page-meta strong { color: var(--black); }
+    .disclaimer-box { max-width: 760px; margin: 32px auto 0; background: rgba(232,114,12,0.06); border: 1.5px solid rgba(232,114,12,0.2); border-radius: 14px; padding: 20px 24px; }
+    .disclaimer-box strong { color: var(--orange); }
+    .disclaimer-box p { font-size: 14px; line-height: 1.65; color: var(--dark); }
+    main { max-width: 760px; margin: 0 auto; padding: 60px 5vw 100px; }
+    h2 { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; margin: 48px 0 14px; color: var(--black); padding-bottom: 10px; border-bottom: 2px solid var(--light-grey); position: relative; }
+    h2::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 40px; height: 2px; background: linear-gradient(90deg, var(--gold), var(--orange)); border-radius: 2px; }
+    h3 { font-size: 16px; font-weight: 700; margin: 24px 0 8px; color: var(--black); }
+    p { font-size: 15px; color: #2A2A3A; margin-bottom: 14px; }
+    ul, ol { padding-left: 24px; margin-bottom: 14px; }
+    li { font-size: 15px; color: #2A2A3A; margin-bottom: 6px; line-height: 1.65; }
+    .highlight { background: rgba(212,175,55,0.06); border-left: 3px solid var(--gold); padding: 16px 20px; border-radius: 0 10px 10px 0; margin: 20px 0; }
+    .highlight p { margin: 0; font-weight: 500; }
+    .warning-box { background: rgba(231,76,60,0.05); border: 1.5px solid rgba(231,76,60,0.2); border-radius: 12px; padding: 18px 22px; margin: 20px 0; }
+    .warning-box p { margin: 0; font-size: 14px; color: #C0392B; }
+    footer { background: var(--black); color: white; text-align: center; padding: 32px 5vw; font-size: 13px; color: rgba(255,255,255,0.4); }
+    footer a { color: rgba(255,255,255,0.6); }
+    footer a:hover { color: var(--gold); text-decoration: none; }
+    .footer-links { display: flex; gap: 24px; justify-content: center; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-icon">💰</div>
+    <span class="nav-logo-text">CashFlow Bénin</span>
+  </a>
+  <a href="index.html" class="nav-back">← Retour à l'accueil</a>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="page-tag">Légal</div>
+    <h1 class="page-title">Conditions d'Utilisation</h1>
+    <p class="page-meta">Dernière mise à jour : <strong>Janvier 2025</strong> · Application : <strong>CashFlow Bénin</strong></p>
+  </div>
+
+  <div class="disclaimer-box">
+    <p><strong>⚠️ À noter absolument :</strong> CashFlow Bénin est un simple <strong>carnet de comptes numérique</strong> pour suivre vos dépenses quotidiennes. Nous ne sommes <strong>pas des professionnels de la finance</strong>, pas une banque, pas un service de conseil en gestion financière. L'application ne remplace pas l'avis d'un professionnel financier agréé.</p>
+  </div>
+</div>
+
+<main>
+
+  <h2>1. Acceptation des conditions</h2>
+  <p>En téléchargeant, installant ou utilisant l'application CashFlow Bénin (« l'Application »), vous acceptez les présentes Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, vous ne devez pas utiliser l'Application.</p>
+
+  <h2>2. Description du service</h2>
+  <p>CashFlow Bénin est une <strong>application mobile de suivi de dépenses personnelles quotidiennes</strong>. Elle permet aux utilisateurs de :</p>
+  <ul>
+    <li>Enregistrer manuellement leurs dépenses du quotidien</li>
+    <li>Visualiser ces dépenses par catégorie et par période</li>
+    <li>Suivre leurs habitudes de dépenses dans le temps</li>
+    <li>Utiliser un assistant IA pour saisir des dépenses en langage naturel (Premium)</li>
+  </ul>
+
+  <div class="warning-box">
+    <p>🚫 <strong>Ce que CashFlow Bénin n'est PAS :</strong> Ce n'est pas une application bancaire, de trading, d'investissement, de crédit, d'assurance, ni de tout autre service financier réglementé. Nous ne gérons pas votre argent. Nous ne vous donnons pas de conseils financiers. Nous affichons uniquement les données que vous saisissez vous-même.</p>
+  </div>
+
+  <h2>3. Création de compte</h2>
+  <p>Pour utiliser l'Application, vous devez créer un compte avec une adresse email valide ou via Google Sign-In. Vous vous engagez à :</p>
+  <ul>
+    <li>Fournir des informations exactes lors de l'inscription</li>
+    <li>Maintenir la confidentialité de vos identifiants de connexion</li>
+    <li>Nous informer immédiatement de toute utilisation non autorisée de votre compte</li>
+    <li>Ne pas créer plusieurs comptes pour le même utilisateur</li>
+    <li>Avoir au moins 13 ans pour utiliser l'Application</li>
+  </ul>
+
+  <h2>4. Utilisation acceptable</h2>
+  <p>L'Application est destinée à un usage personnel et non commercial. Vous vous engagez à ne pas :</p>
+  <ul>
+    <li>Utiliser l'Application à des fins illégales ou frauduleuses</li>
+    <li>Tenter de contourner les mécanismes de sécurité</li>
+    <li>Accéder aux données d'autres utilisateurs</li>
+    <li>Utiliser des robots, scripts ou outils automatisés pour interagir avec l'Application</li>
+    <li>Partager votre compte avec d'autres personnes</li>
+    <li>Utiliser l'Application à des fins commerciales sans notre accord</li>
+  </ul>
+
+  <h2>5. Abonnement Premium</h2>
+
+  <h3>5.1 Prix et durée</h3>
+  <p>L'abonnement Premium est proposé au prix de <strong>2 000 FCFA par mois</strong>. L'abonnement est valable 30 jours à compter de la date de paiement.</p>
+
+  <h3>5.2 Fonctionnalités Premium</h3>
+  <ul>
+    <li>Dépenses illimitées (la version gratuite est limitée à 50 dépenses)</li>
+    <li>Assistant IA pour créer, modifier et supprimer des dépenses</li>
+    <li>Statistiques avancées et graphiques détaillés</li>
+    <li>Export des données (PDF, CSV)</li>
+    <li>Alertes de budget</li>
+  </ul>
+
+  <h3>5.3 Paiement</h3>
+  <p>Les paiements sont traités par <strong>FeexPay</strong>, un service de paiement mobile tiers. Les modes de paiement acceptés sont ceux proposés par FeexPay (MTN MoMo, Moov Money, Celtis Cash, carte bancaire). En effectuant un paiement, vous acceptez également les conditions de FeexPay.</p>
+
+  <h3>5.4 Remboursements</h3>
+  <p>En raison de la nature numérique du service et de l'accès immédiat aux fonctionnalités Premium, les remboursements ne sont généralement pas accordés une fois l'abonnement activé. En cas de problème technique empêchant l'accès aux fonctionnalités Premium, contactez-nous à <a href="mailto:contact@cashflow-benin.app">contact@cashflow-benin.app</a>.</p>
+
+  <h3>5.5 Renouvellement</h3>
+  <p>L'abonnement n'est pas renouvelé automatiquement. Vous devrez effectuer un nouveau paiement pour renouveler votre accès Premium.</p>
+
+  <h2>6. Assistant IA</h2>
+  <p>La fonctionnalité Assistant IA (disponible en Premium) utilise l'API d'Anthropic. En utilisant cette fonctionnalité :</p>
+  <ul>
+    <li>Vous acceptez que vos messages soient transmis à l'API d'Anthropic pour traitement</li>
+    <li>Vous comprenez que l'IA peut parfois faire des erreurs d'interprétation</li>
+    <li>Vous restez responsable de vérifier les actions proposées avant de les confirmer</li>
+    <li>Vous n'utilisez pas l'IA pour des demandes illégales ou inappropriées</li>
+  </ul>
+
+  <div class="highlight">
+    <p>L'IA est un outil d'aide à la saisie. Elle ne prend aucune décision financière. Toute action (création, modification, suppression d'une dépense) nécessite votre confirmation explicite.</p>
+  </div>
+
+  <h2>7. Limitation de responsabilité</h2>
+  <p>CashFlow Bénin est fourni « en l'état ». Nous ne garantissons pas :</p>
+  <ul>
+    <li>La disponibilité continue et ininterrompue de l'Application</li>
+    <li>L'absence de bugs ou d'erreurs</li>
+    <li>La précision des graphiques et statistiques (qui dépendent de vos saisies)</li>
+  </ul>
+
+  <div class="warning-box">
+    <p>🚫 <strong>Exclusion de responsabilité financière :</strong> CashFlow Bénin n'est pas responsable de vos décisions financières. L'Application affiche uniquement les données que vous avez saisies. Nous ne garantissons pas que ces données reflètent fidèlement votre situation financière réelle. Pour des conseils financiers, consultez un professionnel agréé.</p>
+  </div>
+
+  <p>Notre responsabilité totale, quelle qu'en soit la cause, est limitée au montant que vous avez payé pour l'Application au cours des 3 derniers mois.</p>
+
+  <h2>8. Propriété intellectuelle</h2>
+  <p>L'Application, son design, son code source, ses graphismes et son contenu sont la propriété exclusive de CashFlow Bénin. Vous bénéficiez d'une licence d'utilisation personnelle, non exclusive et non transférable.</p>
+  <p>Les données que vous saisissez dans l'Application (vos dépenses) vous appartiennent. Vous nous accordez uniquement le droit de les stocker et traiter pour vous fournir le service.</p>
+
+  <h2>9. Suspension et résiliation</h2>
+  <p>Nous nous réservons le droit de suspendre ou de résilier votre accès à l'Application si vous ne respectez pas les présentes conditions, si votre utilisation est frauduleuse ou si nous cessons d'exploiter l'Application.</p>
+  <p>Vous pouvez à tout moment supprimer votre compte depuis l'Application ou en nous contactant.</p>
+
+  <h2>10. Modifications</h2>
+  <p>Nous pouvons modifier ces conditions à tout moment. Les modifications importantes seront notifiées via l'Application. En continuant à utiliser l'Application après notification, vous acceptez les nouvelles conditions.</p>
+
+  <h2>11. Droit applicable</h2>
+  <p>Ces conditions sont régies par le droit en vigueur en République du Bénin. Tout litige sera soumis à la compétence exclusive des tribunaux de Cotonou, Bénin.</p>
+
+  <h2>12. Contact</h2>
+  <p>Pour toute question concernant ces conditions :</p>
+  <ul>
+    <li>📧 Email : <a href="mailto:contact@cashflow-benin.app">contact@cashflow-benin.app</a></li>
+    <li>🌐 Site web : <a href="index.html">cashflow-benin.app</a></li>
+  </ul>
+
+</main>
+
+<footer>
+  <p>© 2025 CashFlow Bénin · Application de suivi de dépenses personnelles</p>
+  <div class="footer-links">
+    <a href="index.html">Accueil</a>
+    <a href="privacy.html">Confidentialité</a>
+    <a href="mailto:contact@cashflow-benin.app">Contact</a>
+  </div>
+</footer>
+
+</body>
+</html>

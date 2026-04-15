@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de Confidentialité — CashFlow Bénin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --gold: #D4AF37; --gold-dark: #B8962E; --orange: #E8720C;
+      --black: #0D0D0D; --dark: #1A1A2E; --grey: #4A4A6A;
+      --light-grey: #E8E8F0; --pale: #F5F5FA; --white: #FFFFFF;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--white); color: var(--black); line-height: 1.7; }
+    a { color: var(--orange); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    nav {
+      position: sticky; top: 0;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--light-grey);
+      padding: 0 5vw;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 100;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo-icon { width: 34px; height: 34px; background: linear-gradient(135deg, var(--gold-dark), var(--gold)); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+    .nav-logo-text { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; color: var(--black); }
+    .nav-back { font-size: 14px; color: var(--grey); display: flex; align-items: center; gap: 6px; }
+    .nav-back:hover { color: var(--orange); text-decoration: none; }
+
+    .page-hero {
+      background: linear-gradient(135deg, var(--pale) 0%, rgba(212,175,55,0.06) 100%);
+      padding: 60px 5vw 50px;
+      border-bottom: 1px solid var(--light-grey);
+    }
+    .page-hero-inner { max-width: 760px; margin: 0 auto; }
+    .page-tag {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 11px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--orange); margin-bottom: 12px;
+    }
+    .page-tag::before { content: ''; display: block; width: 16px; height: 2px; background: var(--orange); border-radius: 2px; }
+    .page-title { font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 42px); font-weight: 800; line-height: 1.15; letter-spacing: -0.5px; margin-bottom: 12px; }
+    .page-meta { font-size: 14px; color: var(--grey); }
+    .page-meta strong { color: var(--black); }
+
+    .disclaimer-box {
+      max-width: 760px; margin: 32px auto 0;
+      background: rgba(232,114,12,0.06);
+      border: 1.5px solid rgba(232,114,12,0.2);
+      border-radius: 14px;
+      padding: 20px 24px;
+    }
+    .disclaimer-box strong { color: var(--orange); }
+    .disclaimer-box p { font-size: 14px; line-height: 1.65; color: var(--dark); }
+
+    main { max-width: 760px; margin: 0 auto; padding: 60px 5vw 100px; }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin: 48px 0 14px;
+      color: var(--black);
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--light-grey);
+      position: relative;
+    }
+    h2::after {
+      content: '';
+      position: absolute;
+      bottom: -2px; left: 0;
+      width: 40px; height: 2px;
+      background: linear-gradient(90deg, var(--gold), var(--orange));
+      border-radius: 2px;
+    }
+    h3 { font-size: 16px; font-weight: 700; margin: 24px 0 8px; color: var(--black); }
+    p { font-size: 15px; color: #2A2A3A; margin-bottom: 14px; }
+    ul, ol { padding-left: 24px; margin-bottom: 14px; }
+    li { font-size: 15px; color: #2A2A3A; margin-bottom: 6px; line-height: 1.65; }
+    .highlight {
+      background: rgba(212,175,55,0.06);
+      border-left: 3px solid var(--gold);
+      padding: 16px 20px;
+      border-radius: 0 10px 10px 0;
+      margin: 20px 0;
+    }
+    .highlight p { margin: 0; font-weight: 500; }
+
+    footer {
+      background: var(--black); color: white;
+      text-align: center; padding: 32px 5vw;
+      font-size: 13px; color: rgba(255,255,255,0.4);
+    }
+    footer a { color: rgba(255,255,255,0.6); }
+    footer a:hover { color: var(--gold); text-decoration: none; }
+    .footer-links { display: flex; gap: 24px; justify-content: center; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-icon">💰</div>
+    <span class="nav-logo-text">CashFlow Bénin</span>
+  </a>
+  <a href="index.html" class="nav-back">← Retour à l'accueil</a>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="page-tag">Légal</div>
+    <h1 class="page-title">Politique de Confidentialité</h1>
+    <p class="page-meta">Dernière mise à jour : <strong>Janvier 2025</strong> · Application : <strong>CashFlow Bénin</strong></p>
+  </div>
+
+  <div class="disclaimer-box">
+    <p><strong>⚠️ Important — À lire en premier :</strong> CashFlow Bénin est une <strong>application simple de suivi de dépenses quotidiennes à usage personnel</strong>. Elle n'est pas une application de gestion financière professionnelle, bancaire ou d'investissement. Nous ne sommes pas des conseillers financiers, ni des établissements financiers. L'application sert uniquement à noter et visualiser vos dépenses personnelles, comme un carnet de comptes numérique.</p>
+  </div>
+</div>
+
+<main>
+
+  <h2>1. Présentation de l'application</h2>
+  <p>CashFlow Bénin (ci-après « l'Application ») est une application mobile de suivi de dépenses personnelles développée et éditée pour les utilisateurs au Bénin et en Afrique.</p>
+  <p><strong>Ce que fait l'Application :</strong></p>
+  <ul>
+    <li>Vous permettre de noter vos dépenses du quotidien (alimentation, transport, santé, etc.)</li>
+    <li>Visualiser vos dépenses sous forme de graphiques simples</li>
+    <li>Catégoriser vos achats par mode de paiement (MTN MoMo, Moov Money, espèces, etc.)</li>
+    <li>Proposer un assistant IA pour créer ou modifier des entrées (fonctionnalité Premium)</li>
+  </ul>
+  <div class="highlight">
+    <p>CashFlow Bénin <strong>n'est pas</strong> une application bancaire, une application de trading, de conseil en investissement ou de gestion de patrimoine. Toutes les données affichées sont uniquement celles que vous saisissez vous-même.</p>
+  </div>
+
+  <h2>2. Données collectées</h2>
+
+  <h3>2.1 Données de compte</h3>
+  <p>Pour créer un compte et utiliser l'Application, nous collectons :</p>
+  <ul>
+    <li><strong>Nom et prénom</strong> — saisi lors de l'inscription ou importé depuis votre compte Google</li>
+    <li><strong>Adresse email</strong> — pour l'authentification et les communications essentielles</li>
+    <li><strong>Photo de profil</strong> (optionnelle) — si vous vous connectez via Google Sign-In</li>
+    <li><strong>Date de création du compte</strong></li>
+    <li><strong>Statut Premium</strong> — si vous avez souscrit à l'abonnement Premium</li>
+  </ul>
+
+  <h3>2.2 Données de dépenses</h3>
+  <p>Toutes les dépenses que vous enregistrez dans l'Application sont stockées et associées à votre compte :</p>
+  <ul>
+    <li>Montant (en FCFA)</li>
+    <li>Catégorie (alimentation, transport, santé, etc.)</li>
+    <li>Mode de paiement (MTN MoMo, Moov Money, espèces, etc.)</li>
+    <li>Note optionnelle</li>
+    <li>Date de la dépense</li>
+    <li>Date d'enregistrement dans l'Application</li>
+  </ul>
+  <p>Ces données sont <strong>strictement personnelles</strong> : elles ne sont accessibles que par vous et ne sont en aucun cas partagées ou vendues à des tiers.</p>
+
+  <h3>2.3 Données de paiement (Abonnement Premium)</h3>
+  <p>Si vous souscrivez à l'abonnement Premium (2 000 FCFA/mois), votre paiement est traité par <strong>FeexPay</strong>, notre prestataire de paiement tiers. Nous ne collectons ni ne stockons vos informations bancaires ou de Mobile Money. Seuls sont enregistrés dans l'Application :</p>
+  <ul>
+    <li>Le statut de votre paiement (en attente, réussi, échoué)</li>
+    <li>L'identifiant de transaction fourni par FeexPay</li>
+    <li>La date de l'abonnement et la date d'expiration</li>
+  </ul>
+  <p>Pour la politique de confidentialité de FeexPay, consultez : <a href="https://feexpay.me" target="_blank">feexpay.me</a></p>
+
+  <h3>2.4 Données techniques</h3>
+  <p>Firebase (Google) collecte automatiquement certaines données techniques pour le bon fonctionnement de l'Application :</p>
+  <ul>
+    <li>Identifiant unique de l'appareil</li>
+    <li>Système d'exploitation et version</li>
+    <li>Journaux d'erreurs (pour améliorer la stabilité)</li>
+  </ul>
+
+  <h2>3. Utilisation des données</h2>
+  <p>Vos données sont utilisées exclusivement pour :</p>
+  <ul>
+    <li>Vous fournir les fonctionnalités de l'Application (afficher vos dépenses, statistiques, etc.)</li>
+    <li>Gérer votre compte et votre authentification</li>
+    <li>Traiter votre abonnement Premium</li>
+    <li>Vous envoyer des notifications importantes liées à votre compte (si vous l'acceptez)</li>
+    <li>Améliorer les performances et corriger les bugs</li>
+  </ul>
+  <div class="highlight">
+    <p>🚫 Nous ne vendons pas vos données. Nous ne les partageons pas avec des annonceurs. CashFlow Bénin est sans publicité.</p>
+  </div>
+
+  <h2>4. Assistant IA (fonctionnalité Premium)</h2>
+  <p>La fonctionnalité Assistant IA utilise l'API d'Anthropic (Claude) pour interpréter vos messages en langage naturel et créer, modifier ou supprimer des dépenses à votre demande.</p>
+  <p>Lorsque vous utilisez l'Assistant IA :</p>
+  <ul>
+    <li>Le texte de votre message est envoyé à l'API d'Anthropic pour traitement</li>
+    <li>Un résumé anonymisé de vos dépenses récentes est inclus dans la requête pour que l'IA puisse identifier la bonne dépense à modifier ou supprimer</li>
+    <li>Anthropic peut conserver les données envoyées selon sa propre politique de confidentialité</li>
+  </ul>
+  <p>Consultez la politique d'Anthropic : <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></p>
+
+  <h2>5. Stockage et sécurité des données</h2>
+  <p>Vos données sont stockées sur <strong>Google Firebase (Firestore)</strong>, une infrastructure sécurisée basée sur des serveurs en Europe.</p>
+  <p>Mesures de sécurité en place :</p>
+  <ul>
+    <li>Chaque utilisateur ne peut accéder qu'à ses propres données (règles de sécurité Firestore)</li>
+    <li>Authentification obligatoire pour toute action</li>
+    <li>Chiffrement des données en transit (HTTPS/TLS)</li>
+    <li>Chiffrement des données au repos sur les serveurs Firebase</li>
+    <li>Aucun accès possible aux données d'un autre utilisateur</li>
+  </ul>
+
+  <h2>6. Mode hors-ligne</h2>
+  <p>L'Application fonctionne en mode hors-ligne. Vos données sont temporairement stockées sur votre appareil (cache local Firebase) et synchronisées automatiquement avec les serveurs lorsque vous retrouvez une connexion internet.</p>
+
+  <h2>7. Vos droits</h2>
+  <p>Vous disposez des droits suivants sur vos données :</p>
+  <ul>
+    <li><strong>Accès</strong> — Vous pouvez consulter toutes vos données directement dans l'Application</li>
+    <li><strong>Modification</strong> — Vous pouvez modifier vos dépenses et informations de profil à tout moment</li>
+    <li><strong>Suppression</strong> — Vous pouvez supprimer des dépenses individuelles ou demander la suppression complète de votre compte</li>
+    <li><strong>Portabilité</strong> — Fonctionnalité d'export disponible en version Premium</li>
+  </ul>
+  <p>Pour toute demande relative à vos données, contactez-nous à : <a href="mailto:contact@cashflow-benin.app">contact@cashflow-benin.app</a></p>
+
+  <h2>8. Suppression du compte</h2>
+  <p>Vous pouvez supprimer votre compte directement depuis l'Application (Profil → Supprimer le compte). Cette action est irréversible et entraîne la suppression définitive de :</p>
+  <ul>
+    <li>Votre profil et informations personnelles</li>
+    <li>Toutes vos dépenses enregistrées</li>
+    <li>Votre historique d'abonnement</li>
+  </ul>
+
+  <h2>9. Enfants et mineurs</h2>
+  <p>L'Application n'est pas destinée aux enfants de moins de 13 ans. Nous ne collectons pas sciemment de données personnelles d'enfants. Si vous pensez qu'un mineur a créé un compte, contactez-nous pour procéder à la suppression.</p>
+
+  <h2>10. Services tiers utilisés</h2>
+  <p>L'Application fait appel aux services tiers suivants :</p>
+  <ul>
+    <li><strong>Google Firebase</strong> — Authentification, base de données, stockage (<a href="https://firebase.google.com/support/privacy" target="_blank">Politique Firebase</a>)</li>
+    <li><strong>Google Sign-In</strong> — Connexion optionnelle via compte Google (<a href="https://policies.google.com/privacy" target="_blank">Politique Google</a>)</li>
+    <li><strong>FeexPay</strong> — Traitement des paiements (<a href="https://feexpay.me" target="_blank">feexpay.me</a>)</li>
+    <li><strong>Anthropic (Claude API)</strong> — Assistant IA, fonctionnalité Premium uniquement (<a href="https://www.anthropic.com/privacy" target="_blank">Politique Anthropic</a>)</li>
+  </ul>
+
+  <h2>11. Modifications de cette politique</h2>
+  <p>Nous pouvons modifier cette politique de confidentialité à tout moment. En cas de modification substantielle, nous vous en informerons via l'Application ou par email. La date de dernière mise à jour est indiquée en haut de cette page.</p>
+
+  <h2>12. Contact</h2>
+  <p>Pour toute question ou réclamation concernant cette politique de confidentialité ou le traitement de vos données personnelles :</p>
+  <ul>
+    <li>📧 Email : <a href="mailto:contact@cashflow-benin.app">contact@cashflow-benin.app</a></li>
+    <li>🌐 Site web : <a href="index.html">cashflow-benin.app</a></li>
+  </ul>
+
+</main>
+
+<footer>
+  <p>© 2025 CashFlow Bénin · Application de suivi de dépenses personnelles</p>
+  <div class="footer-links">
+    <a href="index.html">Accueil</a>
+    <a href="terms.html">Conditions d'utilisation</a>
+    <a href="mailto:contact@cashflow-benin.app">Contact</a>
+  </div>
+</footer>
+
+</body>
+</html>
